@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.header{
+    background-color:rgba(245, 245, 220, 0.418) ;
+    height:827px ;
+
+
+ 
+
+
+}
+*{
+    font-family: sans-serif;
+}
+
+span,p{
+    opacity: 60%;
+    line-height:1.5;
+}
+
+.r-orange{
+    color: orangered;
+}
+
+.body{
+
+    margin: 0 auto;
+    width: 1140px;
+
+
+
+
+}
+.developer-img{
+    left: 0;
+    margin-bottom: 30px;
+    margin-left:20px;
+
+}
+
+.logo-name{
+    font-weight: 800;
+    opacity: 100%;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between; 
+    width: 92rem;
+    margin: 0 auto;
+
+}
+.nav ul{
+    display: flex;
+
+}
+
+.nav .logo-name{
+
+    font-size: 55px;
+}
+
+.nav li{
+
+    list-style-type: none;
+    padding-right: 70px;
+    padding-top: 25px;
+    opacity: 70%;
+    font-size: 22px;
+}
+
+button{
+    width:9rem;
+    height: 70px;
+    background-color: rgba(255, 68, 0, 0.795);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 22px;
+
+}
+
+.nav-button{
+    font-weight: 400;
+}
+
+.down-btn{
+    width: 195px;
+}
+
+ i{
+    padding-right:10px;
+
+}
+
+
+
+.Contact-btn{
+    background-color: transparent;
+    color:rgba(255, 68, 0, 0.795);
+    border: 2px solid rgba(255, 68, 0, 0.795);
+    width: 10rem;
+    
+   
+}
+
+.i-am{
+    font-size: 45px;
+    opacity: 70%;
+    font-weight: 600;
+    opacity: 100%;
+    
+}
+
+.hardy{
+    font-size: 80px;
+    font-weight: 600;
+    opacity: 100%;
+
+}
+
+.about{
+    font-size: 20px;
+    opacity: 50%;
+
+}
+
+.banner-img{
+    position: relative;
+    margin-top: 138px;
+
+}
+
+.banner-img img{
+    position: absolute;
+    bottom: 45px;
+    right: 0;
+
+}
+
+.banner-words{
+    margin-top: 210px;
+    width: 600px;
+    margin-left: 13.5rem;
+
+    
+
+
+}
+
+.banner-words span{
+    display: block;
+    padding-bottom: 15px;
+
+}
+
+.banner-words-button{
+    margin-top: 20px;
+    margin-right: 100px;
+    
+
+}
+
+
+
+.banner-words-button button{
+
+    margin-right: 25px;
+
+
+}
+
+.about-me{
+    width: 1140px;
+    height: 550px;
+    background-color: rgba(245, 245, 220, 0.418) ;
+    position: relative;
+    border-radius: 7px;
+    margin-top: 150px;
+ 
+}
+
+
+
+.info-about-sec div{
+
+    margin: 0 auto;
+
+}
+
+.info-about-sec{
+    margin-top:87px;
+}
+.inner-about-sec{
+    width:827px;
+    height:288px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.details-about-sec{
+    width: 827px;
+    height: 120px;
+    text-align: center;
+}
+
+
+.info-about-sec div{
+    width: 135px;
+    height: 60px;
+    text-align: center;
+
+}
+
+
+.info-about-sec{
+    display: flex;
+    margin-top: 65px;
+    align-items: flex-start;
+}
+
+.descrip-about-sec p{
+    display: inline-block;
+    margin-top: 50px;
+
+}
+
+.about-me-heading{
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 100%;
+}
+
+.brif-doing {
+
+    text-align: center;
+
+}
+
+
+.carts-i-know div {
+    width:267px ;
+    height:377px ;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.3);
+    display: grid;
+    place-items: center;
+
+}
+
+.carts-i-know div > p{
+ 
+    font-size: 23x;
+}
+
+.carts-i-know div >  span{
+   
+   
+   font-size: 20px;
+   font-weight: 600;
+   opacity: 100%;
+
+
+}
+
+.brif-doing .w-i-do > span{
+    opacity: 100%;
+
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.carts-i-know{
+    display: flex;
+    margin:0 10px;
+
+   
+}
+
+.brif-doing,.carts-i-know{
+
+    margin-top: 80px;
+}
+
+
+
+
+.what-i-do{
+    margin-top:150px ;
+}
+
+.carts-i-know div{
+
+    margin-left: 18px;
+
+}
+
+.w-i-do{
+
+    padding-bottom: 20px;
+
+}
+
+
+.summ-of-my{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.summ-of-my span{
+   opacity: 100%;
+    
+}
+
+
+.carts-in-summary{
+    width: 550px;
+    height:246px;
+}
+
+.carts-in-summary hr{
+
+    margin-top: 40px;
+
+}
+
+
+.carts-in-summary .institution{
+    margin-top: 5px;
+}
+
+.carts-in-summary .descrip-summ-sec{
+    margin-top: 12px;
+}
+
+.my-edu{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.subject-studied{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.institution span{
+    font-weight: 600;
+}
+
+.my-edu span{
+    opacity: 70%;
+
+}
+
+
+
+
+.all-summ-carts{
+
+    display: flex;
+    flex-direction: row;
+    
+    gap:40px
+
+}
+
+
+
+.re-btn{
+    display: block;
+    text-align:center ;
+    margin-top: 20px;
+}
+
+
+.carts-and-btn{
+    margin-top: 150px;
+}
+
+
+.body section{
+
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+    display: flex;
+    background-color: beige;
+    height: 680px;
+    justify-content: center;
+    margin-top: 200px;
+   
+}
+
+.footer div{   
+     margin-left: 50px;
+     margin-right: 50px;
+}
+
+.lets-conne,.lets-mess{
+    opacity: 100%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.foot-icons{
+    display: flex;
+}
+
+.foot-icons img{
+    padding: 0 20px;
+}
+
+.foot-left-part div{
+
+    margin-top: 30px;
+}
+
+.foot-right-part input{
+    display: block;
+    
+}
+
+.name,.email{
+    width:363px;
+    height: 44px;
+    border: 0;
+}
+
+.messege{
+    width:363px;
+    height: 250px;
+    border: 0;
+
+}
+
+.foot-input input{
+
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+
+.foot-right-part div{
+
+    margin-top: 20px;
+
+}
+
+.foot-right-part{
+
+    margin-top: 35px;
+
+}
+
+.foot-left-part{
+
+    margin-top: 20px;
+}
